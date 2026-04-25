@@ -4,5 +4,33 @@ body {
 }
 
 a {
-  color: #00B7FF;
+  color: #00aeff;
+}
+
+.error-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 60vh;
+  text-align: center;
+}
+
+.error-code {
+  font-size: 8rem;
+  font-weight: bold;
+  margin: 0;
+  letter-spacing: -4px;
+}
+
+.error-message {
+  font-size: 1.5rem;
+  margin: 0.25rem 0;
+}
+
+.error-hint {
+  font-size: 0.9rem;
+  opacity: 0.5;
+  font-style: italic;
+  margin-top: 0.5rem;
 }
